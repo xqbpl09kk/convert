@@ -5,6 +5,7 @@ export = ".webp"
 support_suffix = "png jpg"
 
 
+
 def convert(folder , file):
     file_path = folder + "/" + file
     is_dir = os.path.isdir(file_path)
